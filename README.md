@@ -10,8 +10,7 @@ Developed for the Computer Graphics course at the Universidade de Trás-os-Monte
 
 ![Gameplay Demo](assets/demo.gif)
 
-* **Live Demo:** [View Project on GitHub Pages]((https://ppxdpp17.github.io/Go-Three.js/)) - PRESS ENTER TO START
-
+* **Live Demo:** [View Project on GitHub Pages](https://ppxdpp17.github.io/Go-Three.js/) - PRESS ENTER TO START
 ---
 
 ## 🚀 Key Features
