@@ -8,7 +8,7 @@ Developed for the Computer Graphics course at the Universidade de Trás-os-Monte
 
 ## 🎮 Live Demo & Media
 
-> GIFGIFGIFGIFGIFGIF
+![Gameplay Demo](assets/demo.gif)
 
 * **Live Demo:** [View Project on GitHub Pages](https://) 
 
