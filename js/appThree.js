@@ -174,7 +174,7 @@ var meshPecaJogo = new THREE.Mesh(geometriaPeca1, materialTextura1);
 var importer = new FBXLoader();
 
 //IMPORTAÇÃO DE MESA
-importer.load('./assets/models/mesa4.fbx', function (object) {
+importer.load('./Objetos/mesa4.fbx', function (object) {
 
     object.traverse(function (child) {
         if(child.isMesh){
@@ -204,7 +204,7 @@ importer.load('./assets/models/mesa4.fbx', function (object) {
 
 
 //IMPORTAÇÃO DO RINGUE 
-importer.load('./assets/models/ringue2.fbx', function (object) {
+importer.load('./Objetos/ringue2.fbx', function (object) {
 
     object.traverse(function (child) {
         if(child.isMesh){
@@ -233,7 +233,7 @@ importer.load('./assets/models/ringue2.fbx', function (object) {
 
 
 //IMPORTAÇÃO DE PEÇAS PRETAS
-importer.load('./assets/models/pecas.fbx', function (object) {
+importer.load('./Objetos/pecas.fbx', function (object) {
 
     object.traverse(function (child) {
         if(child.isMesh){
@@ -262,7 +262,7 @@ importer.load('./assets/models/pecas.fbx', function (object) {
 });
 
 //IMPORTAÇÃO DE PEÇAS BRANCAS
-importer.load('./assets/models/pecas.fbx', function (white) {
+importer.load('./Objetos/pecas.fbx', function (white) {
 
     white.traverse(function (child) {
         if(child.isMesh){
@@ -292,7 +292,7 @@ importer.load('./assets/models/pecas.fbx', function (white) {
 
 
 //IMPORTAÇÃO DO COMPUTADOR
-importer.load('./assets/models/pc.fbx', function (object) {
+importer.load('./Objetos/pc.fbx', function (object) {
 
     object.traverse(function (child) {
         if(child.isMesh){
@@ -368,12 +368,12 @@ function onDocumentKeyDown(event)   {
 
 
 //Carregamento das texturas para variáveis
-var texture_dir = new THREE.TextureLoader().load('./assets/skybox/posx.jpg'); //Imagem da direita
-var texture_esq = new THREE.TextureLoader().load('./assets/skybox/negx.jpg'); //Imagem da esquerda
-var texture_up = new THREE.TextureLoader().load('./assets/skybox/posy.jpg'); //Imagem de cima
-var texture_dn = new THREE.TextureLoader().load('./assets/skybox/negy.jpg'); //Imagem de baixo
-var texture_bk = new THREE.TextureLoader().load('./assets/skybox/posz.jpg'); //Imagem de trás
-var texture_ft = new THREE.TextureLoader().load('./assets/skybox/negz.jpg'); //Imagem da frente
+var texture_dir = new THREE.TextureLoader().load('./Skybox/posx.jpg'); //Imagem da direita
+var texture_esq = new THREE.TextureLoader().load('./Skybox/negx.jpg'); //Imagem da esquerda
+var texture_up = new THREE.TextureLoader().load('./Skybox/posy.jpg'); //Imagem de cima
+var texture_dn = new THREE.TextureLoader().load('./Skybox/negy.jpg'); //Imagem de baixo
+var texture_bk = new THREE.TextureLoader().load('./Skybox/posz.jpg'); //Imagem de trás
+var texture_ft = new THREE.TextureLoader().load('./Skybox/negz.jpg'); //Imagem da frente
 
 //Array que vai armazenar as texturas
 var materialArray = [];
